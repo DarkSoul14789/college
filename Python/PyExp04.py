@@ -1,17 +1,19 @@
 
 #Q1) Create a Triangle from * sign of length 10 --> INCORRECT
-n=40
-k=40
-for i in range(10):
-    for j in range(i+1):
-        print(" "*k,end="")
-        print('*'*i)
-        n=-1
-    for j in range(i+1):
-        print(" "*k,end="")
-        print('*'*i)
-        k=+1
-    print(end="\n")
+# rows = int(input("Enter number of rows: "))
+rows = 10
+k = 0
+
+for i in range(1, rows+1):
+    for space in range(1, (rows-i)+1):
+        print(end="  ")
+   
+    while k!=(2*i-1):
+        print("* ", end="")
+        k += 1
+   
+    k = 0
+    print()
     
 #Q2) Write a python program to generate Fibonacci number series 
 def fib(n):
