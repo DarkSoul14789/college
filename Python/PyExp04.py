@@ -1,5 +1,5 @@
 
-#Q1) Create a Triangle from * sign of length 10 --> INCORRECT
+#Q1) Create a Triangle from * sign of length 10
 # rows = int(input("Enter number of rows: "))
 rows = 10
 k = 0
