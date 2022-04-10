@@ -19,7 +19,7 @@ int main()
         }
     }
     
-    int job[n] = {0}; //initialised array for storing final values
+    int job[n] = {0}; //initialised array for storing final profit values
     
     //start of main logic
     for (int i = 0; i < size; i++) {
